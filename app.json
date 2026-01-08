@@ -1,25 +1,27 @@
 {
   "expo": {
-    "name": "test-merc",
-    "slug": "test-merc",
+    "name": "mercaduladora",
+    "slug": "mercaduladora",
+    "scheme": "mercaduladora",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "testmerc",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#171717"
     },
     "ios": {
+      "bundleIdentifier": "br.dev.leonascimento.mercaduladora",
       "supportsTablet": true
     },
     "android": {
+      "package": "br.dev.leonascimento.mercaduladora",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#171717"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
@@ -34,6 +36,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "529ee47c-3623-4cdd-8ca5-bb97a5593c02"
+      }
     }
   }
 }
