@@ -43,7 +43,7 @@ A aplicativo para registrar agilizar o soma dos produtos dentro do mercado para 
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/SansixTec/mercaduladora.git
+git clone https://github.com/leonardondev/mercaduladora.git
 ```
 
 2. Navegue para a pasta do projeto:
